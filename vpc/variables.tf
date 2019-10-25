@@ -1,29 +1,21 @@
 ######VARIABLES#########
 
 variable "azs" {
-  default = "eu-west-1a"
+  type = "string"
 }
 
 variable region {
-  default = "eu-west-1"
-}
-
-variable application {
-  default = "lab"
-}
-
-variable environment {
-  default = "d2si"
+  type = "string"
 }
 
 variable owner {
-  default = "me"
+  type = "string"
 }
 
 variable "cidr_block" {
-  default = "172.23.0.0/16"
+  type = "string"
 }
 
 variable "subnet_cidr" {
-  default = "172.23.1.0/24"
+  type = "string"
 }

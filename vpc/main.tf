@@ -32,3 +32,4 @@ resource "aws_route_table_association" "rtappb" {
   subnet_id      = "${aws_subnet.public.id}"
   route_table_id = "${aws_route_table.rtpb.id}"
 }
+
