@@ -4,11 +4,11 @@ variable "azs" {
   type = "string"
 }
 
-variable region {
+variable "region" {
   type = "string"
 }
 
-variable owner {
+variable "owner" {
   type = "string"
 }
 
@@ -16,6 +16,7 @@ variable "cidr_block" {
   type = "string"
 }
 
-variable "subnet_cidr" {
-  type = "string"
+
+variable "subnet_bits" {
+  default = "string"
 }

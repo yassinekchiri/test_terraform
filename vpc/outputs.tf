@@ -7,7 +7,7 @@ output "azs" {
 }
 
 output "public_subnets_id" {
-  value = ["${aws_subnet.public.id}"]
+  value = ["${aws_subnet.public.*.id}"]
 }
 
 output "aws_region" {
